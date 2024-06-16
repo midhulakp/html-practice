@@ -1,0 +1,145 @@
+body{
+    background-color: rgba(172, 219, 250, 0.428);
+}
+*{
+    margin: 0;
+}
+
+header{
+    position: sticky;
+    top: 0;
+}
+
+nav{
+    height: 70px;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(191, 230, 254);
+}
+
+#searchbox{
+
+    position: relative;
+    width: 600px;
+    height: 100px;
+    margin-left: 100px;
+}
+
+input{
+    width:600px ;
+    height: 40px;
+    position: absolute;
+    bottom: 30px;
+    right: 10px;
+    color: black;
+    font-size: 16px;
+    background-color: rgba(191, 230, 254, 0.344);
+    border: 1px solid rgb(228, 227, 227);
+    border-radius: 10px;
+
+}
+.fa-magnifying-glass{
+    position: absolute;
+    top: 40px;
+    left: -15px;
+    z-index: 1;
+
+}
+#nav-items{
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 150px;
+}
+
+img{
+    margin-left: 40px;
+}
+#cart{
+    width: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#seller{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.dropbtn{
+    border: none;
+    color: black;
+    background-color: white;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.login{
+    position: relative;
+    display: inline-block;
+}
+.fa-circle-user{
+    padding-right: 20px;
+}
+
+.sign{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+.items{
+    display: flex;
+    align-items: center;
+}
+
+.signup{
+    font-weight: bolder;
+    color: rgb(0, 0, 251) !important;
+}
+
+.icons{
+    padding-right:30px !important ;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    min-width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a{
+    margin-left: -30px;
+    color: black;
+    padding: 12px;
+    text-decoration: none;
+    display: block;
+
+}
+
+i{
+    padding-left: 20px;
+}
+
+
+.login:hover .dropdown-content{
+    display: block;
+}
+
+.login:hover .dropbtn{
+    background-color: blue;
+}
+
+#icon{
+    margin: 40px;
+}
