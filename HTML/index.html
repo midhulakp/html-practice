@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://cdn.pixabay.com/photo/2017/06/30/10/14/social-media-2457842_640.png"  type="image/x-icon">
+    <title>my web page</title>
+    <!-- <meta http-equiv="refresh" content="5;url=https://www.instagram.com"> -->
+</head>
+<body>
+    <h1>MY Web Page</h1>
+    <img src="https://images.unsplash.com/photo-1661956600684-97d3a4320e45?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDQ1fGFldTZyTC1qNmV3fHxlbnwwfHx8fHw%3D" alt="A girl with laptop" height="400px" width="600px">
+    <img src="img.avif" alt="white table" height="200px" width="200px">
+
+    <a href="https://www.instagram.com" target="_blank"><img src="./img/insta.svg" alt="instagram img" width="50px" height="50px"></a>
+
+    <table border="3px" cellpadding="20px" cellspacing="10px">
+        <tr>
+            <th colspan="4">details</th>
+        </tr>
+        <tr>
+            <th>Id</th>
+            <th>name</th>
+            <th>age</th>
+            <th>place</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>pranav</td>
+            <td rowspan="2">22</td>
+            <td>payyanur</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>midhula</td>
+            <!-- <td>22</td> -->
+            <td rowspan="3">palakkad</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>karthika</td>
+            <td>24</td>
+            <!-- <td>palakkad</td> -->
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>nithin</td>
+            <td>25</td>
+            <!-- <td>palakkad</td> -->
+        </tr>
+    </table>
+    <h3>Fruits</h3>
+    <ol type="1" start="1" >
+       <li>Grapes</li>
+       <li>Mango</li>
+       <li>Apple</li>
+       <li>Starwberry</li>
+       <li>Watermelon</li>
+    </ol>
+    <h3>veggies</h3>
+    <ul type="circle">
+        <li>Potato</li>
+        <li>Tomato</li>
+        <li>Onion</li>
+        <li>Carrot</li>
+        <li>Chilli</li>
+    </ul>
+
+    <dl>
+        <dt>Fruits</dt>
+        <dd>Fruits are the mature or ripened reproductive structures (ovary of a flower) formed by plants that enclose seeds and help with their dispersal. Fruits generally have fleshy outer material. They are an essential part of the plant’s life cycle, serving to protect and disperse the seeds, allowing the plant to reproduce and spread its species.</dd>
+    </dl>
+
+    <dl>
+        <dt>veggies</dt>
+        <dd>Vegetables are parts of plants that are consumed by humans or other animals as food. The original meaning is still commonly used and is applied to plants collectively to refer to all edible plant matter, including the flowers, fruits, stems, leaves, roots, and seeds.</dd>
+    </dl>
+
+
+    <ol>
+        <li>veggies
+            <ul type="circle">
+                <li>Potato</li>
+                <li>Tomato</li>
+                <li>Onion</li>
+                <li>Carrot</li>
+                <li>Chilli</li>
+            </ul>
+        </li>
+        <li>Fruits
+            <ol type="1" start="1" >
+                <li>Grapes
+                    <ul>
+                        <li>seedles
+                            <ol>
+                                <li>green</li>
+                                <li>purple</li>
+                            </ol>
+                        </li>
+                        <li>seeded</li>
+                        <li>green</li>
+                        <li>purple</li>
+                    </ul>
+                </li>
+                <li>Mango</li>
+                <li>Apple</li>
+                <li>Starwberry</li>
+                <li>Watermelon</li>
+             </ol>
+        </li>
+    </ol>
+
+<form action="" method="post" autocomplete="on">
+    <font color="purple" size="100px"><center><u><i>Form</i></u></center></font>
+    <fieldset>
+        <legend>Personal informations</legend>
+        <table cellspacing="20px">
+            <tr>
+                <td>
+                    <label for="fname">First Name</label>
+                </td>
+                <td>
+                    <input type="text" id="fname" name="first-name" placeholder="enter your first name" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="lname">Last Name</label>
+                </td>
+                <td>
+                    <input type="text" name="last-name" id="lname" placeholder="enter your last name" required>
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">E-mail</label>
+                </td>
+                <td>
+                    <input type="email" name="e-mail" id="email" placeholder="enter your email" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="num">Phone-Number</label>
+                </td>
+                <td>
+                    <input type="tel" name="phn-num" id="num" placeholder="enter your number" required minlength="10" maxlength="10">
+                </td>
+            </tr>
+           
+            <tr>
+                <td>
+                    <label for="dob">Date-of-Birth</label>
+                </td>
+                <td>
+                    <input type="date" name="Date-of-Birth" id="dob">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="address">Address</label>
+                </td>
+                <td>
+                    <textarea name="address" id="address" cols="30" rows="10" placeholder="enter your address"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="file">Choose a file</label>
+                </td>
+                <td>
+                    <input type="file" name="file" id="file">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="image">Profile Image</label>
+                </td>
+                <td>
+                    <input type="image" name="profile-image" id="image" src="./img/virat.webp" width="50px" height="50px">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="gender">Gender</label>
+                </td>
+                <td>
+                    <input type="radio" name="gender" id="gender" value="male">Male
+                    <input type="radio" name="gender" id="gender" value="female">Female
+                    <input type="radio" name="gender" id="gender" value="others">Others
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="tech">Technolgy you know</label>
+                </td>
+                <td>
+                    <input type="checkbox" name="Technology1" id="tech" value="HTML">HTML
+                    <input type="checkbox" name="Technology2" id="tech" value="CSS">CSS
+                    <input type="checkbox" name="Technology3" id="tech" value="JavaScript">JavaScript
+                    <input type="checkbox" name="Technology4" id="tech" value="Reactjs">Reactjs
+                    <input type="checkbox" name="Technology5" id="tech" value="Bootstrap">Bootstrap
+                    <input type="checkbox" name="Technology6" id="tech" value="Java">Java
+                    <input type="checkbox" name="Technology7" id="tech" value="SQL">SQL
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="place">Place</label>
+                </td>
+                <td>
+                    <select name="place" id="place">
+                        <option value="Andra pradesh">Andra pradesh</option>
+                        <option value="Bihar">Bihar</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Goa">Goa</option>
+                        <option value="Karnataka">Karnataka</option>
+                        <option value="Kerala">Kerala</option>
+                        <option value="Kolkata">Kolkata</option>
+                        <option value="Madhya pradesh">Madhya pradesh</option>
+                        <option value="Maharashtra">Maharashtra</option>
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="tamil nadu">Tamil Nadu</option>
+                        <option value="uthar pradesh">Uthar pradesh</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pass">Password</label>
+                </td>
+                <td>
+                    <input type="password" name="password" id="pass" placeholder="enter the password" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="password">Confirm-Password</label>
+                </td>
+                <td>
+                    <input type="password" name="confirm-password" id="password" placeholder="confirm the password" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="search">Search here</label>
+                </td>
+                <td>
+                    <input type="search" name="search" id="search">
+                </td>
+                
+            </tr>
+            <tr>
+                <td>
+                    <label for="url"> enter the URL</label>
+                </td>
+                <td>
+                    <input type="url" name="url" id="url">
+                </td>
+                
+            </tr>
+            <tr>
+                <td>
+                    <label for="range">Range</label>
+                </td>
+                <td>
+                    <input type="range" name="range" id="range">
+                </td>
+                
+            </tr>
+            <tr>
+                <td>
+                    <label for="color">Select a color</label>
+                </td>
+                <td>
+                    <input type="color" name="color" id="color">
+                </td>
+                
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" name="button" id="button" value="Button">
+                </td>
+                <td>
+                    <input type="submit" name="submit" id="submit" value="Submit">
+                </td>
+                <td>
+                    <input type="reset" name="reset" id="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+</form>
+</body>
+</html>
