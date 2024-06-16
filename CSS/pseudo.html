@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo elements</title>
+    <style>
+        p::first-letter{
+            color: brown;
+            font-size: 30px;
+            font-weight: bolder;
+        }
+        p::first-line{
+            color: rgb(39, 104, 117);
+        }
+        p::before{
+            content: "start ";
+            color: aquamarine;
+        }
+
+        p::after{
+            content: "Thank you";
+        }
+
+        li::marker{
+            color: rgb(53, 106, 64);
+            font-size: 20px;
+        }
+        p::selection{
+            background-color: rgb(129, 239, 239);
+            color: black;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque eligendi magnam velit et minima accusamus aut, nulla corporis vitae    nam animi, totam a dolor non? Eos facilis illum consectetur at.
+        Excepturi vitae vero error facere dignissimos debitis. Quasi aut odit harum ea dolor quae dolorem saepe reiciendis sapiente temporibus, eaque beatae aliquam, consectetur eos, molestiae laboriosam dignissimos vitae provident similique.
+        Earum est ratione assumenda dignissimos consequatur. Explicabo corporis accusamus sed, hic, eius impedit delectus voluptatem facilis necessitatibus dicta recusandae obcaecati incidunt doloremque quo, quasi pariatur deserunt ullam culpa? Optio, blanditiis?
+    </p>
+
+    <ol>
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+        <li>item4</li>
+    </ol>
+</body>
+</html>

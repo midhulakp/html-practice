@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div h1{
+            color: aquamarine;
+        }
+
+        div>h1{
+            background-color: black;
+        }
+
+        nav{
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            background-color: black;
+            color: rgb(209, 232, 108);
+            height: 60px;
+            width: 100%;
+
+        }
+        nav h1,h2{
+            color: rgb(249, 171, 77);
+        }
+
+
+        article+h1{
+            color: blueviolet;
+        }
+        article~h2{
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>one</h1>
+        <h2>two</h2>
+        <article>
+            <p>hello</p>
+            <h1>hi</h1>
+            <section>
+                <h1>LAST</h1>
+            </section>
+        </article>
+    </div>
+
+    <nav>
+        <h1>home</h1>
+        <h2>hello</h2>
+    </nav>
+
+
+
+    <article>
+        <h1>one</h1>
+        <div>
+            <h1>two</h1>
+        </div>
+    </article>
+    <h1>three</h1>
+    <h2>four</h2>
+    <h1>five</h1>
+    <h2>six</h2>
+    <div>
+        <h1>hello</h1>
+        <h2>hello</h2>
+    </div>
+</body>
+</html>     

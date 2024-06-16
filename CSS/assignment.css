@@ -1,0 +1,34 @@
+#title{
+    color: #f8f9fa;
+    background-color: #343a40;
+    font-size: 30px;
+    padding: 10px;
+    margin: 0px;
+}
+.heading{
+    color: #343a40;
+}
+button{
+    background-color: #212529;
+    height: 30px;
+    width: 100px;
+    color: #f8f9fa;
+    border: none;
+}
+img{
+    float: right;
+}
+
+p{
+    color: rgb(68, 66, 66);
+}
+
+
+*{
+    background-color: #dee2e6;
+    color: #212529;
+}
+
+form,table,input,label,textarea,tr,td,fieldset,legend {
+    background-color: #f8f9fa;
+}

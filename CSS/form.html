@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up Form</title>
+    <style>
+        body{
+            background-color: #dee2e6;
+        }
+        form{
+            background-color: #6c757d;
+        }
+        legend{
+            color: #212529;
+            font-size: 30px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        label{
+            font-size: 20px;
+            font-weight: lighter;
+            color: #212529;
+        }
+
+        input{
+            background-color:#e9ecef;
+            border: 2px solid #adb5bd;
+            color: rgb(255, 255, 255);
+        }
+
+        #submit{
+            color: white;
+            background-color:#212529 ;
+            width: 100px;
+            height: 30px;
+            border-radius: 10px;
+            font-size: 15px;
+            font-weight: bold;
+            
+        }
+
+        table{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <form action="" method="post">
+        <fieldset>
+            <legend>SIGN UP</legend>
+            <table cellspacing="20px" cellpadding="20px">
+                <tr>
+                    <td>
+                        <label for="username" >Username</label>
+                    </td>
+                    <td>
+                        <input type="text" name="username" id="username" placeholder="enter user name" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">E-mail</label>
+                    </td>
+                    <td>
+                        <input type="email" id="email" name="email" placeholder="enetr your email" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="number">Phone number</label>
+                    </td>
+                    <td>
+                        <input type="tel" id="number" name="Phone-number" placeholder="enter your phone number" minlength="0" maxlength="10" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="password">Password</label>
+                    </td>
+                    <td>
+                        <input type="password" name="password" id="password" placeholder="enter password">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="pass"> Confirm-Password</label>
+                    </td>
+                    <td>
+                        <input type="password" name="confirm-password" id="pass" placeholder="enter password">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" name="submit" id="submit" >
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+    
+</body>
+</html>

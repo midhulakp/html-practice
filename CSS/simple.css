@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+    /* universe */
+*{
+    background-color: rgb(181, 252, 181);
+    font-size: 40px;
+ }
+h1{
+    color: rgb(126, 18, 124);
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+/* id */
+#demo{
+    background-color: rgb(46, 126, 126);
+    color: brown;
+}
+
+/* class */
+
+.test{
+    background-color: rgb(174, 145, 202);
+    color: rgb(90, 5, 5);
+}
+
+
+/* tag name */
+
+section{
+    font-size: 50px;
+    color: rgb(87, 154, 131);
+}
+
+article,aside,header,footer{
+    color: black;
+    background-color: rgb(6, 212, 212);
+}
+
